@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://javafxcookbook.s3.amazonaws.com/ch003/transanim" href="translateanim_browser.jnlp">
+    <information>
+        <title>translateanim</title>
+        <vendor>Vladimir Vivien</vendor>
+        <homepage href="http://www.javafxcookbook.com/"/>
+        <description>Translate Animation Demo</description>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <jar href="animdemo.jar" main="true"/>
+    </resources>
+    <applet-desc name="translateanim" main-class="com.sun.javafx.runtime.adapter.Applet" width="400" height="200">
+        <param name="MainJavaFXScript" value="animation.trans.TranslateTransitionDemo"/>
+    </applet-desc>
+    <update check="background"/>
+</jnlp>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://javafxcookbook.s3.amazonaws.com/ch007/js2jfx-types/" href="js2jfxtypes.jnlp">
+    <information>
+        <title>js2jfxtypes</title>
+        <vendor>vladimir</vendor>
+        <homepage href="http://javafxcookbook.s3.amazonaws.com/ch007/js2jfx-types/"/>
+        <description>js2jfxtypes</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <jar href="js2jfxtypes.jar" main="true"/>
+    </resources>
+    <application-desc main-class="com.sun.javafx.runtime.main.Main">
+        <argument>MainJavaFXScript=Js2JfxTypeConversion</argument>
+    </application-desc>
+    <update check="background">
+</jnlp>

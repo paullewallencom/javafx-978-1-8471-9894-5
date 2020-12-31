@@ -1,0 +1,47 @@
+Scene {
+    fill:linear (0%, 0%) to (0%,100%) stops (0.0, beige), (1.0, white)
+}
+
+Label {
+    textFill:brown
+}
+
+Text.heading {
+    fill:brown;
+    font-family:"Arial Black";
+    font-size:24pt
+}
+
+
+TextBox {
+    textFill:maroon;
+    backgroundFill:orange;
+    borderFill:orange;
+    caretFill:red;
+    focusFill:brown;
+    highlightFill:green;
+    selectedTextFill:yellow
+}
+
+RadioButton{
+    borderFill: orange;
+    focusFill: brown;
+    heightlightFill: orange;
+    textFill: brown;
+    fill: orange;
+}
+
+CheckBox{
+    borderFill: orange;
+    focusFill: brown;
+    heightlightFill: orange;
+    textFill: brown;
+    fill: orange;
+}
+
+Button {
+    borderFill: orange;
+    focusFill: brown;
+    textFill: brown;
+    fill: orange;
+}

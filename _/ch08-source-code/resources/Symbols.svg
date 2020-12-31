@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="640px"
+	 height="480px" viewBox="0 0 640 480" enable-background="new 0 0 640 480" xml:space="preserve">
+<g id="JFX:star">
+	<radialGradient id="SVGID_1_" cx="65.1001" cy="68.5928" r="57.6526" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FF0000"/>
+		<stop  offset="1" style="stop-color:#FF0000;stop-opacity:0"/>
+	</radialGradient>
+	<polygon fill="url(#SVGID_1_)" stroke="#000000" stroke-width="4" points="112.436,109.825 73.542,103.001 45.872,131.172 
+		40.343,92.074 5,74.462 40.477,57.123 46.304,18.067 73.758,46.449 112.703,39.923 94.194,74.804 	"/>
+</g>
+<g id="JFX:polygon_1_">
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="110.8066" y1="76.5811" x2="222.2588" y2="76.5811" gradientTransform="matrix(0.9988 0.0491 -0.0491 0.9988 2.7283 -7.3241)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_2_)" stroke="#000000" stroke-width="4" points="192.033,126.259 136.304,124.954 109.569,76.039 
+		138.563,28.428 194.293,29.732 221.028,78.648 	"/>
+</g>
+<g id="JFX:circle_1_">
+	<radialGradient id="SVGID_3_" cx="284.1494" cy="76" r="57.9326" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#FFE88B"/>
+	</radialGradient>
+	<circle fill="url(#SVGID_3_)" stroke="#000000" stroke-width="4" cx="284.149" cy="76" r="57.933"/>
+</g>
+<g id="JFX:3DBlock">
+	<g>
+		<g>
+			<g enable-background="new    ">
+				<g>
+					<polygon fill="#655038" points="482.521,116.3 468.846,108.86 469.012,19.237 482.688,26.676 					"/>
+				</g>
+				<g>
+					<polygon fill="#8C6E4D" points="365.369,132.764 351.693,125.325 468.846,108.86 482.521,116.3 					"/>
+				</g>
+				<g>
+					<polygon fill="#9A9A9A" points="365.535,43.141 351.859,35.702 469.012,19.237 482.688,26.676 					"/>
+				</g>
+				<g>
+					<polygon fill="#AFAFAF" points="365.369,132.764 365.535,43.141 482.688,26.676 482.521,116.3 					"/>
+					<g enable-background="new    ">
+						<defs>
+							<polygon id="SVGID_4_" enable-background="new    " points="365.369,132.764 365.535,43.141 482.688,26.676 482.521,116.3 
+															"/>
+						</defs>
+						<clipPath id="SVGID_5_">
+							<use xlink:href="#SVGID_4_"  overflow="visible"/>
+						</clipPath>
+						<g clip-path="url(#SVGID_5_)">
+							<g>
+								<g>
+									<defs>
+										<polyline id="SVGID_6_" points="482.521,116.3 365.369,132.764 365.535,43.141 482.688,26.676 482.521,116.3 										
+											"/>
+									</defs>
+									<clipPath id="SVGID_7_">
+										<use xlink:href="#SVGID_6_"  overflow="visible"/>
+									</clipPath>
+									<g clip-path="url(#SVGID_7_)">
+										
+											<image overflow="visible" width="118" height="107" xlink:href="C40833E4.png"  transform="matrix(1 0 0 1 365.3691 26.6763)">
+										</image>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g>
+					<polygon fill="#818181" points="365.369,132.764 351.693,125.325 351.859,35.702 365.535,43.141 					"/>
+				</g>
+				<g>
+					<polygon fill="#655038" points="363.587,134.934 349.911,127.494 350.085,34.032 363.761,41.472 					"/>
+				</g>
+				<g>
+					<polygon fill="#8C6E4D" points="363.761,41.472 350.085,34.032 470.794,17.067 484.47,24.507 					"/>
+				</g>
+				<g>
+					<path fill="#AD885F" d="M363.761,41.472L484.47,24.507l-0.174,93.462l-120.709,16.964L363.761,41.472z M482.521,116.3
+						l0.166-89.624L365.535,43.141l-0.166,89.623L482.521,116.3"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="JFX:letter_A">
+	<g id="Qik07N_1_">
+		
+			<image overflow="visible" width="156" height="152" id="Qik07N_2_" xlink:href="C40833E2.jpg"  transform="matrix(1 0 0 1 484 0)">
+		</image>
+	</g>
+</g>
+</svg>

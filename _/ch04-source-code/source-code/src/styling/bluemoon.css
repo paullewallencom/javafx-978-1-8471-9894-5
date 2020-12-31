@@ -1,0 +1,46 @@
+Scene {
+    fill:linear (0%, 0%) to (0%,100%) stops (0.0, whitesmoke), (1.0, white)
+}
+
+Label {
+    textFill:blue
+}
+
+Text.heading {
+    fill:blue;
+    font-family:"Arial Black";
+    font-size:24pt
+}
+
+TextBox {
+    textFill:blue;
+    backgroundFill:lightblue;
+    borderFill:lightblue;
+    caretFill:darkgray;
+    focusFill:blue;
+    highlightFill:yellow;
+    selectedTextFill:blue
+}
+
+RadioButton{
+    borderFill: lightblue;
+    focusFill: blue;
+    heightlightFill: lightblue;
+    textFill: blue;
+    fill: lightblue;
+}
+
+CheckBox{
+    borderFill: lightblue;
+    focusFill: blue;
+    heightlightFill: lightblue;
+    textFill: blue;
+    fill: lightblue;
+}
+
+Button {
+    borderFill: lightblue;
+    focusFill: blue;
+    textFill: blue;
+    fill: lightblue;
+}

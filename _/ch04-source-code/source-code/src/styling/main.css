@@ -1,0 +1,37 @@
+Scene {
+    fill:linear (0%, 0%) to (0%,100%) stops (0.0, grey), (1.0, white)
+}
+
+Rectangle {
+	fill:yellow;
+	strokeWidth:2;
+	arcWidth:10;
+	arcHeight:10;
+}
+Circle {
+	fill:silver;
+	strokeWidth:2;
+        stroke:black
+}
+
+Text {
+	fill:blue;
+	font-family:"Arial,Sans";
+	font-size:12pt
+}
+
+#titleText {
+	fill:white;
+	font-family:"Arial Black";
+	font-size:24pt
+}
+.specialText {
+	fill:red;
+	font-family:"Arial Black";
+	font-size:16pt
+}
+
+.broad{
+	stroke:red;
+	strokeWidth:4
+}

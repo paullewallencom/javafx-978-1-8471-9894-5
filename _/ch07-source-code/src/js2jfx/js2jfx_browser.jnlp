@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://javafxcookbook.s3.amazonaws.com/ch007/js2jfx-demo" href="js2jfx_browser.jnlp">
+    <information>
+        <title>js2jfx</title>
+        <vendor>vladimir</vendor>
+        <homepage href=""/>
+        <description>js2jfx</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <jar href="js2jfx.jar" main="true"/>
+    </resources>
+    <applet-desc name="js2jfx" main-class="com.sun.javafx.runtime.adapter.Applet" width="800" height="100">
+        <param name="MainJavaFXScript" value="JavaScript2JavaFXDemo">
+    </applet-desc>
+    <update check="background">
+</jnlp>

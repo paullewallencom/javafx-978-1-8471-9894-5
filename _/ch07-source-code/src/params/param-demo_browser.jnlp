@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://javafxcookbook.s3.amazonaws.com/ch007/param-demo" href="param-demo_browser.jnlp">
+    <information>
+        <title>param-demo</title>
+        <vendor>Vladimir Vivien</vendor>
+        <homepage href="http://javafxcookbook.s3.amazonaws.com/ch007/param-demo"/>
+        <description>param-demo</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <jar href="param-demo.jar" main="true"/>
+    </resources>
+    <applet-desc name="param-demo" main-class="com.sun.javafx.runtime.adapter.Applet" width="200" height="200">
+        <param name="MainJavaFXScript" value="param.demo.Main">
+    </applet-desc>
+    <update check="background">
+</jnlp>

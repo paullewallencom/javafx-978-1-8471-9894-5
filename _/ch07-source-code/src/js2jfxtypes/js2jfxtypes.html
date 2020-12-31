@@ -1,0 +1,93 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>js2jfxtypes</title>
+</head>
+<body>
+<h1>js2jfxtypes</h1>
+<script src="http://dl.javafx.com/1.2/dtfx.js"></script>
+<script>
+    javafx(
+        {
+              archive: "js2jfxtypes.jar",
+              width: 400,
+              height: 100,
+              code: "js2jfxtypes.Js2JfxTypeConversion",
+              name: "js2jfxtypes",
+              id:"applet"
+        }
+    );
+    var applet = document.getElementById("js2jfx");
+</script>
+<form>
+    <table>
+
+        <tr>
+            <td>Object Parameter</td>
+            <td><input type="text" id="passInObj"/></td>
+            <td><input type="button" value="Send Value" onclick="applet.script.setObject( document.getElementById('passInObj').value);"/></td>
+            <td><input type="button" value="Send Integer Literal 20" onclick="applet.script.setObject(20);"/></td>
+            <td><input type="button" value="Send Float Literal 20.5" onclick="applet.script.setObject(20.5);"/></td>
+            <td><input type="button" value="Send Boolean Literal true" onclick="applet.script.setObject(true);"/></td>
+            <td><input type="button" value="Send String Array Literal ['a','b','c','d']" onclick="applet.script.setObject(['a','b','c','d']);"/></td>
+            <td><input type="button" value="Send Integer Array Literal [7,8,9]" onclick="applet.script.setObject([7,8,9]);"/></td>
+        </tr>
+
+        <tr>
+            <td>String Parameter</td>
+            <td><input type="text" id="passInStr"/></td>
+            <td><input type="button" value="Send Value" onclick="applet.script.setString( document.getElementById('passInStr').value);"/></td>
+            <td><input type="button" value="Send Integer Literal 20" onclick="applet.script.setString(20);"/></td>
+            <td><input type="button" value="Send Float Literal 20.5" onclick="applet.script.setString(20.5);"/></td>
+            <td><input type="button" value="Send Boolean Literal true" onclick="applet.script.setString(true);"/></td>
+            <td><input type="button" value="Send String Array Literal ['a','b','c','d']" onclick="applet.script.setString(['a','b','c','d']);"/></td>
+            <td><input type="button" value="Send Integer Array Literal [7,8,9]" onclick="applet.script.setString([7,8,9]);"/></td>
+        </tr>
+
+        <tr>
+            <td>Float Parameter</td>
+            <td><input type="text" id="passInNum"/></td>
+            <td><input type="button" value="Send Value" onclick="applet.script.setNumber( document.getElementById('passInNum').value);"/></td>
+            <td><input type="button" value="Send Integer Literal 20" onclick="applet.script.setNumber(20);"/></td>
+            <td><input type="button" value="Send Float Literal 20.5" onclick="applet.script.setNumber(20.5);"/></td>
+            <td><input type="button" value="Send Boolean Literal true" onclick="applet.script.setNumber(true);"/></td>
+            <td><input type="button" value="Send String Array Literal ['a','b','c','d']" onclick="applet.script.setNumber(['a','b','c','d']);"/></td>
+            <td><input type="button" value="Send Integer Array Literal [7,8,9]" onclick="applet.script.setNumber([7,8,9]);"/></td>
+        </tr>
+
+        <tr>
+            <td>Integer Parameter</td>
+            <td><input type="text" id="passInInt"/></td>
+            <td><input type="button" value="Send Value" onclick="applet.script.setInteger( document.getElementById('passInInt').value);"/></td>
+            <td><input type="button" value="Send Integer Literal 20" onclick="applet.script.setInteger(20);"/></td>
+            <td><input type="button" value="Send Float Literal 20.5" onclick="applet.script.setInteger(20.5);"/></td>
+            <td><input type="button" value="Send Boolean Literal true" onclick="applet.script.setInteger(true);"/></td>
+            <td><input type="button" value="Send String Array Literal ['a','b','c','d']" onclick="applet.script.setInteger(['a','b','c','d']);"/></td>
+            <td><input type="button" value="Send Integer Array Literal [7,8,9]" onclick="applet.script.setInteger([7,8,9]);"/></td>
+        </tr>
+
+        <tr>
+            <td>Boolean Parameter</td>
+            <td><input type="text" id="passInBool"/></td>
+            <td><input type="button" value="Send Value" onclick="applet.script.setBoolean( document.getElementById('passInBool').value);"/></td>
+            <td><input type="button" value="Send Integer Literal 20" onclick="applet.script.setBoolean(20);"/></td>
+            <td><input type="button" value="Send Float Literal 20.5" onclick="applet.script.setBoolean(20.5);"/></td>
+            <td><input type="button" value="Send Boolean Literal true" onclick="applet.script.setBoolean(true);"/></td>
+            <td><input type="button" value="Send String Array Literal ['a','b','c','d']" onclick="applet.script.setBoolean(['a','b','c','d']);"/></td>
+            <td><input type="button" value="Send Integer Array Literal [7,8,9]" onclick="applet.script.setBoolean([7,8,9]);"/></td>
+        </tr>
+
+        <tr>
+            <td>Sequence Parameter</td>
+            <td><input type="text" id="passInSeq"/></td>
+            <td><input type="button" value="Send Value" onclick="applet.script.setSequence( document.getElementById('passInSeq').value);"/></td>
+            <td><input type="button" value="Send Integer Literal 20" onclick="applet.script.setSequence(20);"/></td>
+            <td><input type="button" value="Send Float Literal 20.5" onclick="applet.script.setSequence(20.5);"/></td>
+            <td><input type="button" value="Send Boolean Literal true" onclick="applet.script.setSequence(true);"/></td>
+            <td><input type="button" value="Send String Array Literal ['a','b','c','d']" onclick="applet.script.setSequence(['a','b','c','d']);"/></td>
+            <td><input type="button" value="Send Integer Array Literal [7,8,9]" onclick="applet.script.setSequence([7,8,9]);"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

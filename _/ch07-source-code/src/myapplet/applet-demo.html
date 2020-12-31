@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>applet-demo</title>
+</head>
+<body>
+<h1>applet-demo</h1>
+<script src="http://dl.javafx.com/1.2/dtfx.js"></script>
+<script>
+    javafx(
+        {
+              archive: "applet-demo.jar",
+              width: 640,
+              height: 75,
+              code: "applet.demo.Main",
+              name: "applet-demo",
+              jnlp_href: "myapplet.jnlp"
+        }
+    );
+</script>
+</body>
+</html>

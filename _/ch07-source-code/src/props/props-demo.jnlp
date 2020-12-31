@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://javafxcookbook.s3.amazonaws.com/ch007/props-demo" href="props-demo.jnlp">
+    <information>
+        <title>props-demo</title>
+        <vendor>Vladimir Vivien</vendor>
+        <homepage href="http://javafxcookbook.s3.amazonaws.com/ch007/props-demo"/>
+        <description>props-demo</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+" java-vm-args="-verbose -Xdebug"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <jar href="props-demo.jar" main="true"/>
+    </resources>
+    <application-desc main-class="com.sun.javafx.runtime.main.Main">
+        <argument>MainJavaFXScript=props.demo.Main</argument>
+    </application-desc>
+    <update check="background">
+</jnlp>

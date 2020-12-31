@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Text Commander</title>
+</head>
+<body>
+<h1>Text Commander</h1>
+<script src="http://dl.javafx.com/1.2/dtfx.js"></script>
+<script>
+    javafx(
+        {
+              archive: "js2jfx.jar",
+              width: 800,
+              height: 100,
+              code: "JavaScript2JavaFXDemo",
+              name: "js2jfx",
+              id:"js2jfx"
+        }
+    );
+    function update() {
+        var js2jfx = document.getElementById("js2jfx");
+        js2jfx.script.textContent = document.getElementById("msg").value;
+        js2jfx.script.textFont = document.getElementById("font").value;
+        js2jfx.script.textColor = document.getElementById("color").value;
+        js2jfx.script.textColorEnd = document.getElementById("color2").value;
+
+        js2jfx.script.applyEffect(document.getElementById("effect").selectedIndex);
+    }
+</script>
+<hr/>
+<form>
+    <table>
+        <tr><td>Text</td>
+            <td><input id="msg" value="Text Commander"></td>
+        </tr>
+        <tr><td>Font</td>
+            <td><input id="font" value="sans-serif"></td>
+        </tr>
+        <tr><td>Color</td>
+            <td><input id="color" value="blue"></td>
+        </tr>
+        <tr><td>Gradient End Color</td>
+            <td><input id="color2" value="blue"></td>
+        </tr>
+
+        <tr><td>Apply Effect</td>
+            <td><select id="effect">
+                    <option value="0">None</option>
+                    <option value="1">Reflection</option>
+                    <option value="2">Drop Shadow</option>
+                    <option value="3">Lighting</option>
+                </select>
+            </td>
+        </tr>
+        <tr><td colspan="2"><input type="button" value="Set" onclick="update()"/></td></tr>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://my.server/path/to/app/" href="webstart-demo_browser.jnlp">
+    <information>
+        <title>webstart-demo</title>
+        <vendor>Vladimir Vivien</vendor>
+        <homepage href="http://my.server/path/to/app/"/>
+        <description>webstart-demo</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <jar href="webstart-demo.jar" main="true"/>
+    </resources>
+    <applet-desc name="webstart-demo" main-class="com.sun.javafx.runtime.adapter.Applet" width="200" height="200">
+        <param name="MainJavaFXScript" value="webstart.demo.Main">
+    </applet-desc>
+    <update check="background">
+</jnlp>

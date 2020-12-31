@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://javafxcookbook.s3.amazonaws.com/ch007/webapp-demo/" href="webstart-demo.jnlp">
+    <information>
+        <title>JavaFX Web Start Demo</title>
+        <vendor>Vladimir Vivien</vendor>
+        <homepage href="http://javafxcookbook.s3.amazonaws.com/ch007/webapp-demo/webstart-demo.html"/>
+        <description>Run app from Web Start</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <jar href="webstart-demo.jar" main="true"/>
+    </resources>
+    <application-desc main-class="com.sun.javafx.runtime.main.Main">
+        <argument>MainJavaFXScript=webstart.demo.Main</argument>
+    </application-desc>
+    <update check="background">
+</jnlp>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://javafxcookbook.s3.amazonaws.com/ch007/draggable-demo" href="draggable-demo_browser.jnlp">
+    <information>
+        <title>draggable-demo</title>
+        <vendor>vladimir</vendor>
+        <homepage href="http://javafxcookbook.s3.amazonaws.com/ch007/draggable-demo"/>
+        <description>draggable-demo</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <jar href="draggable-demo.jar" main="true"/>
+    </resources>
+    <applet-desc name="draggable-demo" main-class="com.sun.javafx.runtime.adapter.Applet" width="300" height="75">
+        <param name="MainJavaFXScript" value="draggable.demo.Main">
+    </applet-desc>
+    <update check="background">
+</jnlp>
